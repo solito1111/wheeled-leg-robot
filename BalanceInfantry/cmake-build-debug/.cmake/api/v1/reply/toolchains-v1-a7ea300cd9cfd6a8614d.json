@@ -1,0 +1,91 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : {},
+				"path" : "D:/ArmGNUTToolchain/bin/arm-none-eabi-gcc.exe",
+				"version" : ""
+			},
+			"language" : "ASM",
+			"sourceFileExtensions" : 
+			[
+				"s",
+				"S",
+				"asm"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"D:/ArmGNUTToolchain/lib/gcc/arm-none-eabi/10.3.1/include",
+						"D:/ArmGNUTToolchain/lib/gcc/arm-none-eabi/10.3.1/include-fixed",
+						"D:/ArmGNUTToolchain/arm-none-eabi/include"
+					],
+					"linkDirectories" : [],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : []
+				},
+				"path" : "D:/ArmGNUTToolchain/bin/arm-none-eabi-gcc.exe",
+				"version" : "10.3.1"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"D:/ArmGNUTToolchain/arm-none-eabi/include/c++/10.3.1",
+						"D:/ArmGNUTToolchain/arm-none-eabi/include/c++/10.3.1/arm-none-eabi",
+						"D:/ArmGNUTToolchain/arm-none-eabi/include/c++/10.3.1/backward",
+						"D:/ArmGNUTToolchain/lib/gcc/arm-none-eabi/10.3.1/include",
+						"D:/ArmGNUTToolchain/lib/gcc/arm-none-eabi/10.3.1/include-fixed",
+						"D:/ArmGNUTToolchain/arm-none-eabi/include"
+					],
+					"linkDirectories" : [],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : []
+				},
+				"path" : "D:/ArmGNUTToolchain/bin/arm-none-eabi-g++.exe",
+				"version" : "10.3.1"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

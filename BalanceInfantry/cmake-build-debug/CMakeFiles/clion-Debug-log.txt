@@ -1,0 +1,19 @@
+"D:\CLion\CLion 2022.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S D:\BalanceInfantry\BalanceInfantry -B D:\BalanceInfantry\BalanceInfantry\cmake-build-debug
+-- The C compiler identification is GNU 10.3.1
+-- The CXX compiler identification is GNU 10.3.1
+-- The ASM compiler identification is GNU
+-- Found assembler: D:/ArmGNUTToolchain/bin/arm-none-eabi-gcc.exe
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: D:/ArmGNUTToolchain/bin/arm-none-eabi-gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: D:/ArmGNUTToolchain/bin/arm-none-eabi-g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Minimal optimization, debug info included
+-- Configuring done (4.2s)
+-- Generating done (0.1s)
+-- Build files have been written to: D:/BalanceInfantry/BalanceInfantry/cmake-build-debug

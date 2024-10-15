@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="InfantryGimbalC"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/BalanceInfantry/BalanceInfantry/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/CLion/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/BalanceInfantry/BalanceInfantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/CLion/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/BalanceInfantry/BalanceInfantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/BalanceInfantry/BalanceInfantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/BalanceInfantry/BalanceInfantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="InfantryGimbalC.elf">
+				<Option output="D:/BalanceInfantry/BalanceInfantry/cmake-build-debug/InfantryGimbalC.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/BalanceInfantry/BalanceInfantry/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM_MATH_CM4"/>
+					<Add option="-DARM_MATH_MATRIX_CHECK"/>
+					<Add option="-DARM_MATH_ROUNDING"/>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F407xx"/>
+					<Add directory="D:/BalanceInfantry/BalanceInfantry/Core/Inc"/>
+					<Add directory="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/BalanceInfantry/BalanceInfantry/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="D:/BalanceInfantry/BalanceInfantry/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2"/>
+					<Add directory="D:/BalanceInfantry/BalanceInfantry/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
+					<Add directory="D:/BalanceInfantry/BalanceInfantry/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="D:/BalanceInfantry/BalanceInfantry/Drivers/CMSIS/Include"/>
+					<Add directory="D:/BalanceInfantry/BalanceInfantry/Middlewares/ST/ARM/DSP/Inc"/>
+					<Add directory="D:/BalanceInfantry/BalanceInfantry/Drivers_User"/>
+					<Add directory="D:/BalanceInfantry/BalanceInfantry/Tasks_User"/>
+					<Add directory="D:/BalanceInfantry/BalanceInfantry/Math_User"/>
+					<Add directory="D:/BalanceInfantry/BalanceInfantry/Bsp_User"/>
+					<Add directory="D:/BalanceInfantry/BalanceInfantry/Gyro_User"/>
+					<Add directory="d:\armgnuttoolchain\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\armgnuttoolchain\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\armgnuttoolchain\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\armgnuttoolchain\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\armgnuttoolchain\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\armgnuttoolchain\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CLion/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/BalanceInfantry/BalanceInfantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 InfantryGimbalC.elf"/>
+					<CompileFile command="D:/CLion/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/BalanceInfantry/BalanceInfantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/BalanceInfantry/BalanceInfantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/BalanceInfantry/BalanceInfantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="InfantryGimbalC.elf/fast">
+				<Option output="D:/BalanceInfantry/BalanceInfantry/cmake-build-debug/InfantryGimbalC.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/BalanceInfantry/BalanceInfantry/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM_MATH_CM4"/>
+					<Add option="-DARM_MATH_MATRIX_CHECK"/>
+					<Add option="-DARM_MATH_ROUNDING"/>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F407xx"/>
+					<Add directory="D:/BalanceInfantry/BalanceInfantry/Core/Inc"/>
+					<Add directory="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/BalanceInfantry/BalanceInfantry/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="D:/BalanceInfantry/BalanceInfantry/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2"/>
+					<Add directory="D:/BalanceInfantry/BalanceInfantry/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
+					<Add directory="D:/BalanceInfantry/BalanceInfantry/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="D:/BalanceInfantry/BalanceInfantry/Drivers/CMSIS/Include"/>
+					<Add directory="D:/BalanceInfantry/BalanceInfantry/Middlewares/ST/ARM/DSP/Inc"/>
+					<Add directory="D:/BalanceInfantry/BalanceInfantry/Drivers_User"/>
+					<Add directory="D:/BalanceInfantry/BalanceInfantry/Tasks_User"/>
+					<Add directory="D:/BalanceInfantry/BalanceInfantry/Math_User"/>
+					<Add directory="D:/BalanceInfantry/BalanceInfantry/Bsp_User"/>
+					<Add directory="D:/BalanceInfantry/BalanceInfantry/Gyro_User"/>
+					<Add directory="d:\armgnuttoolchain\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\armgnuttoolchain\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\armgnuttoolchain\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\armgnuttoolchain\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\armgnuttoolchain\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\armgnuttoolchain\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CLion/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/BalanceInfantry/BalanceInfantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 InfantryGimbalC.elf/fast"/>
+					<CompileFile command="D:/CLion/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/BalanceInfantry/BalanceInfantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/BalanceInfantry/BalanceInfantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/BalanceInfantry/BalanceInfantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/BalanceInfantry/BalanceInfantry/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/CLion/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/BalanceInfantry/BalanceInfantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/CLion/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/BalanceInfantry/BalanceInfantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/BalanceInfantry/BalanceInfantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/BalanceInfantry/BalanceInfantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/BalanceInfantry/BalanceInfantry/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/CLion/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/BalanceInfantry/BalanceInfantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/CLion/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/BalanceInfantry/BalanceInfantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/BalanceInfantry/BalanceInfantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion/CLion 2022.3/bin/mingw/bin/mingw32-make.exe -f &quot;D:/BalanceInfantry/BalanceInfantry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Bsp_User/bsp_buzzer.cpp">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Bsp_User/bsp_buzzer.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Bsp_User/bsp_can.cpp">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Bsp_User/bsp_can.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Bsp_User/bsp_delay.cpp">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Bsp_User/bsp_delay.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Bsp_User/bsp_imu_pwm.cpp">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Bsp_User/bsp_imu_pwm.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Bsp_User/bsp_struct_typedef.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Bsp_User/bsp_usart.cpp">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Bsp_User/bsp_usart.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Bsp_User/bsp_watchdog.c">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Bsp_User/bsp_watchdog.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Bsp_User/protocol.cpp">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Bsp_User/protocol.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Core/Inc/FreeRTOSConfig.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Core/Inc/can.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Core/Inc/dma.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Core/Inc/gpio.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Core/Inc/i2c.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Core/Inc/iwdg.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Core/Inc/main.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Core/Inc/spi.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Core/Inc/stm32f4xx_hal_conf.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Core/Inc/stm32f4xx_it.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Core/Inc/tim.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Core/Inc/usart.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Core/Src/can.c">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Core/Src/dma.c">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Core/Src/freertos.c">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Core/Src/gpio.c">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Core/Src/i2c.c">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Core/Src/iwdg.c">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Core/Src/main.c">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Core/Src/spi.c">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Core/Src/stm32f4xx_hal_msp.c">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Core/Src/stm32f4xx_hal_timebase_tim.c">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Core/Src/stm32f4xx_it.c">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Core/Src/syscalls.c">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Core/Src/sysmem.c">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Core/Src/system_stm32f4xx.c">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Core/Src/tim.c">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Core/Src/usart.c">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Core/Startup/startup_stm32f407ighx.s">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/CMSIS/Device/ST/STM32F4xx/LICENSE.txt">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/CMSIS/LICENSE.txt">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_iwdg.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_bus.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_cortex.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dma.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_exti.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_i2c.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_pwr.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rcc.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_system.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usart.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_utils.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/LICENSE.txt">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers_User/data_fifo.cpp">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers_User/data_fifo.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers_User/driver_chassis.cpp">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers_User/driver_chassis.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers_User/driver_communicate.cpp">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers_User/driver_communicate.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers_User/driver_gyro.cpp">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers_User/driver_gyro.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers_User/driver_judge.cpp">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers_User/driver_judge.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers_User/driver_led.cpp">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers_User/driver_led.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers_User/driver_motor.cpp">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers_User/driver_motor.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers_User/driver_power.cpp">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers_User/driver_power.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers_User/driver_remote.cpp">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Drivers_User/driver_remote.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Gyro_User/BMI088Middleware.c">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Gyro_User/BMI088Middleware.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Gyro_User/BMI088driver.c">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Gyro_User/BMI088driver.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Gyro_User/BMI088reg.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Gyro_User/QuaternionEKF.c">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Gyro_User/QuaternionEKF.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Gyro_User/bsp_PWM.c">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Gyro_User/bsp_PWM.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Gyro_User/bsp_dwt.c">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Gyro_User/bsp_dwt.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Gyro_User/controller.c">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Gyro_User/controller.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Gyro_User/kalman_filter_whx.c">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Gyro_User/kalman_filter_whx.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Gyro_User/user_lib.c">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Gyro_User/user_lib.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Math_User/MahonyAHRS.cpp">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Math_User/MahonyAHRS.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Math_User/kalman_filter.cpp">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Math_User/kalman_filter.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Math_User/pid.cpp">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Math_User/pid.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Middlewares/ST/ARM/DSP/Inc/arm_math.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Middlewares/ST/ARM/DSP/Lib/libarm_cortexM4lf_math.a">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/freertos_mpool.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/freertos_os2.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Middlewares/Third_Party/FreeRTOS/Source/croutine.c">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Middlewares/Third_Party/FreeRTOS/Source/include/StackMacros.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Middlewares/Third_Party/FreeRTOS/Source/include/atomic.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Middlewares/Third_Party/FreeRTOS/Source/include/list.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Middlewares/Third_Party/FreeRTOS/Source/include/message_buffer.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_prototypes.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Middlewares/Third_Party/FreeRTOS/Source/include/task.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Middlewares/Third_Party/FreeRTOS/Source/list.c">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Middlewares/Third_Party/FreeRTOS/Source/queue.c">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Middlewares/Third_Party/FreeRTOS/Source/tasks.c">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Middlewares/Third_Party/FreeRTOS/Source/timers.c">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/STM32F407IGHX_FLASH.ld">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Tasks_User/task_buzzer.cpp">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Tasks_User/task_chassis.cpp">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Tasks_User/task_communicate.cpp">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Tasks_User/task_gyro.cpp">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Tasks_User/task_gyro.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Tasks_User/task_judge.cpp">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Tasks_User/task_judge.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Tasks_User/task_led.cpp">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Tasks_User/task_lostCounter.cpp">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Tasks_User/task_lostCounter.h">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Tasks_User/task_power.cpp">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/Tasks_User/task_remote.cpp">
+			<Option target="InfantryGimbalC.elf"/>
+		</Unit>
+		<Unit filename="D:/BalanceInfantry/BalanceInfantry/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

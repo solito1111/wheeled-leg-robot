@@ -1,0 +1,3 @@
+D:/BalanceInfantry/BalanceInfantry/cmake-build-debug/CMakeFiles/InfantryGimbalC.elf.dir
+D:/BalanceInfantry/BalanceInfantry/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/BalanceInfantry/BalanceInfantry/cmake-build-debug/CMakeFiles/rebuild_cache.dir
